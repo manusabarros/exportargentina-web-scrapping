@@ -1,7 +1,7 @@
 {
-  "name": "node-typescript-boilerplate",
+  "name": "exportargentina-web-scraping",
   "version": "1.0.0",
-  "description": "Node TypeScript Boilerplate Project",
+  "description": "ExportArgentina Web Scraping",
   "main": "./dist/index.js",
   "scripts": {
     "start": "npm run build && node .",
@@ -19,5 +19,11 @@
     "eslint": "^7.13.0",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.5",
+    "xlsx": "^0.16.9"
   }
 }
